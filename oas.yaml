@@ -1,0 +1,19 @@
+openapi: "3.0.0"
+info:
+  version: 1.0.0
+  title: Gateway AI OAS
+  description: Gateway AI OAS
+  license:
+    name: Apache 2.0
+    url: https://spdx.org/licenses/Apache-2.0.html
+servers:
+  - url: http://whoami3.docker.localhost
+paths:
+  /:
+    get:
+      summary: Ask questions
+      responses:
+        '200':
+          description: answer your questions
+        default:
+          description: unexpected error
