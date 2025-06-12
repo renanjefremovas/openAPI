@@ -7,7 +7,7 @@ info:
     name: Apache 2.0
     url: https://spdx.org/licenses/Apache-2.0.html
 servers:
-  - url: http://whoami3.docker.localhost
+  - url: https://whoami3.docker.localhost
 paths:
   /:
     get:
